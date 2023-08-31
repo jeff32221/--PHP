@@ -1,9 +1,22 @@
-Simple Create, Read, Update, Delete (CRUD) in PHP & MySQL
+PHP-CRUD
 ========
-
-A simple and basic system to add, edit, delete and view using PHP and MySQL. 
-
-Blog Article: [Very simple add, edit, delete, view in PHP & MySQL](http://blog.chapagain.com.np/very-simple-add-edit-delete-view-in-php-mysql/)
-
-SQL script to create database and tables is present in **database.sql** file.
-
+1. 請建構一個 帳號新增 的基本CRUD表單，欄位有：
+帳號 varchar
+姓名 varchar
+性別 varchar
+生日 date
+信箱 varchar
+備註 text
+2. 需要用到PHP物件、繼承、介面等物件導向技巧
+3. 清單頁 - 顯示已存在資料
+4. 新增/編輯/刪除(需二次確認) - 資料編輯用
+5. 需用到jQuery
+6. 需用到AJAX
+7. 使用彈窗(Dialog)方式開啟 新增/編輯表單頁
+8. 支援搜尋、排序功能
+9. 每頁顯示數量、分頁(Pagination)
+10. 資料驗証 
+必填：帳號、姓名、性別、生日、信箱
+帳號格式：英文+數字
+日期格式：生日
+信箱格式：信箱
